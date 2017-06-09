@@ -75,17 +75,6 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://github.com/Loment/sdk-cashew-ios/releases/download/v2.0/MessagingSDK.framework.zip" }
 
 
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
-  s.source_files  = "Carthage/Build/iOS/**/*.{h,m}"
-
-
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
