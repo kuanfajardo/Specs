@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :http => "https://github.com/Loment/sdk-cashew-ios/releases/download/v2.0/release.zip" }
+  s.source       = { :http => "https://github.com/Loment/sdk-cashew-ios/releases/download/v2.0/MessagingSDK.framework.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -83,7 +83,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-#s.source_files  = "release/**/*.{h, m}"
+  # s.source_files  = ""
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
