@@ -83,7 +83,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # s.source_files  = ""
+  # s.source_files  = "Carthage/Build/iOS/**/*.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.preserve_paths = "release"
+  s.preserve_paths = "Carthage"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   s.frameworks = "UIKit", "Foundation", "SystemConfiguration"
 
-  s.vendored_frameworks = "release/MessagingSDK.framework"
+  s.vendored_frameworks = "Carthage/Build/iOS/MessagingSDK.framework"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
